@@ -1,0 +1,13 @@
+name: titanic-tfdf
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - tensorflow
+    - tensorflow_decision_forests
+    - numpy
+    - seaborn
+    - matplotlib
+    - pandas
